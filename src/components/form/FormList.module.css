@@ -1,0 +1,111 @@
+/**
+ * File: FormList.module.css
+ * -----
+ * Created Date: Monday February 13th 2023
+ * Author: Akhil Mohan
+ * -----
+ * Last Modified: Mon Feb 13 2023
+ * Modified By: Akhil Mohan
+ * @packageDocumentation
+ */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e7f4ee;
+}
+
+.listTitle{
+    color: #21BF73;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 8px;
+}
+
+.listItemContainer{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding-block: 30px;
+    padding-inline: 30px;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-height: 80vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+
+.listItemContainer::-webkit-scrollbar { 
+    display: none; 
+}
+
+.listItem{
+    padding: 5px;
+    display: flex;
+    margin-block: 5px;
+    border-radius: 5px;
+    align-items: center;
+    border: 2px solid #8aac9a;
+}
+
+.itemId{
+    padding: 5px;
+    color: #537363;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.itemName{
+    padding: 5px;
+    color: #537363;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ .itemAge{
+    padding: 5px;
+    color: #537363;
+    font-size: medium;
+    font-weight: bold;
+    white-space: nowrap;
+ }
+
+.itemRole{
+    padding: 5px;
+    color: #537363;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.itemDelete{
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #ffe0de;
+}
+
+.verticalDivider{
+    height: 100%;
+    border-left: 1px solid #000;
+}
+
+.fabAdd{    
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+    position: absolute;
+}

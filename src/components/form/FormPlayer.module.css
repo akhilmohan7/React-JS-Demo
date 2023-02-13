@@ -1,0 +1,91 @@
+/**
+ * File: FormPlayer.module.css
+ * -----
+ * Created Date: Wednesday February 8th 2023
+ * Author: Akhil Mohan
+ * -----
+ * Last Modified: Mon Feb 13 2023
+ * Modified By: Akhil Mohan
+ * @packageDocumentation
+ */
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e7f4ee;
+}
+
+.formContainer{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;
+    padding-inline: 30px;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding-block: 30px;
+    background-color: #ffffff;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-inline: auto;
+    border-radius: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #d6c6e3;
+    border: 2px solid #674188;
+}
+
+.btnContainer{
+
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.addBtn{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #21BF73;
+    user-select: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-inline: 20px;
+    background-color: #baf0d6;
+}
+
+.addBtn:active{
+    scale: 0.95;
+    opacity: 0.6;
+}
+
+.cancelBtn{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #FD5E53;
+    user-select: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-inline: 20px;
+    background-color: #fbdedc;
+}
+
+.cancelBtn:active{
+    scale: 0.95;
+    opacity: 0.6;
+}
